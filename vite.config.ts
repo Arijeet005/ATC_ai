@@ -5,7 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: process.env.VITE_BASE_PATH || "ATC_ai" ,
+    base: "/",
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
