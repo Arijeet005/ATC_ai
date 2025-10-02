@@ -55,7 +55,7 @@
         "dev": "vite",
         "build": "npx vite build",
         "preview": "vite preview",
-        "vercel-build": "npm install && npm run build"
+        "vercel-build": "npx install && npx run build"
     },
     "engines": {
         "node": "22.x"
