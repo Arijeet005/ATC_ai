@@ -124,7 +124,7 @@ export function LoginScreen({ onLogin }: LoginScreenProps) {
               type="submit"
               className="w-full h-12 bg-green-600 hover:bg-green-700 text-white"
             >
-              {language === "hi" ? "लॉगिन करें" : "Login"}
+              {language === "hi" ? "साइन अप करें" : "Sign Up"}
             </Button>
 
             <Button
